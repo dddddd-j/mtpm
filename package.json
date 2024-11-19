@@ -1,0 +1,21 @@
+{
+  "name": "mtpm",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mtpm": "/lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "4",
+    "commander": "^12.1.0",
+    "inquirer": "^12.1.0",
+    "node-http-ping": "^0.3.1"
+  }
+}
